@@ -1,0 +1,21 @@
+import './styles.css';
+import {ReactComponent as Vector} from 'assets/img/Vector.svg'
+function Pagination (){
+    return (
+        <div className="dsmovie-pagination-container">
+            <div className="dsmovie-pagination-box">
+                <button className="dsmovie-pagination-button" disabled={true} >
+                    <Vector />
+                </button>
+                <p>{`${1} de ${3}`}</p>
+                <button className="dsmovie-pagination-button" disabled={true} >
+                    <Vector className="dsmovie-flip-horizontal" />
+                </button>
+            </div>
+        </div>
+
+        
+        );
+}
+
+export default Pagination;
