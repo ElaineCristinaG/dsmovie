@@ -2,7 +2,6 @@ import {ReactComponent as StarFull} from 'assets/img/starFull.svg';
 import {ReactComponent as StarHalf} from 'assets/img/starHalf.svg';
 import {ReactComponent as StarEmpty} from 'assets/img/starEmpty.svg'
 import './styles.css';
-import { type } from '@testing-library/user-event/dist/type';
 
 type Props = {
   score: number; 

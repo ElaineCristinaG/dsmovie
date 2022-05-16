@@ -42,7 +42,7 @@ function FormCard({ movieId }:Props){
                 score: score
             }
         }
-        axios(config).then(response => {
+       axios(config).then(response => {
             navigate("/");
 
         });
